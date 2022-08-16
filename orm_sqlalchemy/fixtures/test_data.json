@@ -1,0 +1,146 @@
+{
+  "publisher": [
+    {
+      "id": 1,
+      "name": "Abrams Books"
+    },
+    {
+      "id": 2,
+      "name": "Ballantine Books"
+    },
+    {
+      "id": 3,
+      "name": "Capstone Publishers"
+    }
+  ],
+  "book": [
+    {
+      "id": 1,
+      "title": "Library Mouse",
+      "publisher_id": 1
+    },
+    {
+      "id": 2,
+      "title": "Rosie Revere",
+      "publisher_id": 1
+    },
+    {
+      "id": 3,
+      "title": "Engineer",
+      "publisher_id": 1
+    },
+    {
+      "id": 4,
+      "title": "The Space Merchants",
+      "publisher_id": 2
+    },
+    {
+      "id": 5,
+      "title": "Star Science Fiction Stories",
+      "publisher_id": 2
+    },
+    {
+      "id": 6,
+      "title": "Where the Crawdads Sing",
+      "publisher_id": 3
+    },
+    {
+      "id": 7,
+      "title": "Ugly Love",
+      "publisher_id": 3
+    }
+  ],
+  "shop": [
+    {
+      "id": 1,
+      "name": "Dymocks Booksellers"
+    },
+    {
+      "id": 2,
+      "name": "Livraria Cultura"
+    },
+    {
+      "id": 3,
+      "name": "Joint Publishing"
+    }
+  ],
+  "stock": [
+    {
+      "id": 1,
+      "count": 10,
+      "book_id": 1,
+      "shop_id": 1
+    },
+    {
+      "id": 2,
+      "count": 10,
+      "book_id": 2,
+      "shop_id": 1
+    },
+    {
+      "id": 3,
+      "count": 10,
+      "book_id": 3,
+      "shop_id": 2
+    },
+    {
+      "id": 4,
+      "count": 10,
+      "book_id": 4,
+      "shop_id": 2
+    },
+    {
+      "id": 5,
+      "count": 10,
+      "book_id": 5,
+      "shop_id": 3
+    },
+    {
+      "id": 6,
+      "count": 10,
+      "book_id": 6,
+      "shop_id": 3
+    },
+    {
+      "id": 7,
+      "count": 10,
+      "book_id": 7,
+      "shop_id": 3
+    }
+  ],
+  "sale": [
+    {
+      "id": 1,
+      "count": 6,
+      "price": 467,
+      "date_sale": "2018-02-25",
+      "stock_id": 1
+    },
+    {
+      "id": 2,
+      "count": 5,
+      "price": 500,
+      "date_sale": "2019-05-20",
+      "stock_id": 2
+    },
+    {
+      "id": 3,
+      "count": 4,
+      "price": 371,
+      "date_sale": "2022-07-17",
+      "stock_id": 3
+    },{
+      "id": 4,
+      "count": 3,
+      "price": 268,
+      "date_sale": "2022-05-07",
+      "stock_id": 2
+    },{
+      "id": 5,
+      "count": 2,
+      "price": 171,
+      "date_sale": "2020-11-14",
+      "stock_id": 3
+    }
+  ]
+}
